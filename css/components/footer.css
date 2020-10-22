@@ -1,0 +1,23 @@
+.footer {
+  background-color: rgba(37, 67, 85, 0.9);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-text p {
+  color: rgba(242, 244, 248, 0.6);
+  font-size: 17px;
+  margin: 10px;
+  text-shadow: 1px 1px 1px rgba(194, 132, 132, 0.4);
+}
+
+.footer-links i {
+  color: rgba(242, 244, 248, 0.7);
+  font-size: 25px;
+  padding: 20px;
+  margin: 0;
+}
+

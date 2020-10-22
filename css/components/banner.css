@@ -1,0 +1,60 @@
+.banner {
+  color: white;
+  padding: 100px 0;
+  height: 350px;
+  display: flex;
+  background-size: cover;
+  background-position: 100% 50%; /* horizontal vertical*/
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.banner h1 {
+  display: block;
+  font-size: 80px;
+  margin-top: 90px;
+  margin-bottom: 10PX;
+  margin-left: 90px;
+  margin-right: 100px;
+  font-weight: bold;
+  color: rgb(189, 15, 27);
+  text-shadow: 2px 2px 2px rgb(194, 132, 132);
+}
+
+.banner p {
+  font-size: 18px;
+  color: rgb(189, 15, 27);
+  text-shadow: 2px 2px 2px rgb(194, 132, 132);
+  margin-left: 70px;
+  margin: 0;
+}
+
+.btn-start {
+  background-color: rgb(192, 196, 211);
+  color: rgba(37, 67, 85, 0.9);
+  border: 1px solid rgba(37, 67, 85, 0.9);
+  border-radius: 25px;
+  padding: 18px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-weight: lighter;
+  margin: 30px;
+}
+
+.btn-start:hover {
+  color: rgb(189, 15, 27);
+  border: 1px solid rgb(189, 15, 27);
+}
+
+
+
+
+
+
+

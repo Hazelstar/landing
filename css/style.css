@@ -1,0 +1,26 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Raleway&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/activities.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cutive Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+

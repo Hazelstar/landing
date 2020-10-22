@@ -1,0 +1,75 @@
+.activities {
+  background-color: rgb(229, 234, 241);
+  color: rgba(189, 15, 27, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.cards img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-trip {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: rgba(189, 15, 27, 0.8);
+  background-color: rgb(229, 234, 241);
+  box-shadow: 1px 2px 8px rgba(194, 132, 132, 0.6);
+  text-shadow: 1px 1px 1px rgb(242, 244, 248);
+  border-radius: 4px;
+}
+
+.card-trip-footer {
+  padding: 30px;
+  position: relative;
+}
+
+.card-trip-footer i {
+  font-size: 60px;
+  position: absolute;
+  left: 50px;
+  top: -30px;
+}
+
+.card-trip:hover {
+  color: rgb(242, 244, 248);
+  background-color: rgba(194, 132, 132, 0.4);
+  box-shadow: 3px 4px 8px rgba(194, 132, 132, 0.9);
+  text-shadow: 2px 2px 2px rgba(37, 67, 85, 0.9)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
